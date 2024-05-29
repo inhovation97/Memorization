@@ -1,0 +1,20 @@
+SEED: 42
+
+DATASET:
+  train_json_path: /home/inho/Memorization/data/cifar10_train_NoiseRatio_0.5.json
+  test_json_path: /home/inho/Memorization/data/cifar10_test_NoiseRatio_0.5.json
+
+OPTIMIZER:
+  opt_name: Adam
+  lr: 0.001
+
+TRAINING:
+  batch_size: 64
+  test_batch_size: 64
+  epochs: 100
+  log_interval: 100
+  use_scheduler: False
+
+RESULT:
+  # savedir: '/media/data1/inho/df_detection/experiments_vit/saved_model/'
+  savedir: '/media/NAS/USERS/inho/Memorization/NoisyData'
